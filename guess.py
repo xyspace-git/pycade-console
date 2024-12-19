@@ -1,16 +1,19 @@
 '''
 Created by @aftonsenpai - 05:23 AM | 19/12/24
 Type - Console Game
-Title - Guess the Number [Simple Edition]
-Version - 1.1.4
+Title - Guess the Number
+Version - 2.7.6
 '''
 from random import randint, choice
 from os import system as s
-s('cls')
+from time import sleep
+
 praises = ("You've won", "Nice game", "Great round", "Good job", "That was neat")
+
 
 def simple_guess():
     rnum = randint(0,9)
+    s('cls')
     print("Guess the Number [Simple Edition]")
     print("Rules: \n[#] You got three chances \n[#] Guess from 0 to 9")
     for i in range(3):
@@ -26,4 +29,32 @@ def simple_guess():
     print("You Lose!") if k==0 else print("{}!".format(choice(praises)))
     return "Thanks for playing!"
 
-simple_guess()
+def menu():
+    def re(message, ctype):
+        print(message)
+        sleep(0.6)
+        s('cls')
+        quit() if ctype == "q" else menu()
+    s('cls')
+    print("Guess the Number [MENU]")
+    print("[1] Simple Edition")
+    print("[2] Original Edition")
+    print("[3] Updated Edition")
+    try:
+        ch = int(input("[>] "))
+        if ch == 1:
+            simple_guess()
+        elif ch == 2:
+            re("Will be added soon", "m")
+        elif ch == 3:
+            re("Will be added soon", "m")
+        elif ch == 0:
+            re("You Quit", "q")
+        else:
+            re("Invalid Input", "m")
+    except ValueError:
+        re("Invalid Input", "m")
+        
+
+if __name__ == "__main__":
+    menu()
