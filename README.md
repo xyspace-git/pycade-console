@@ -1,5 +1,4 @@
-# Pycade Console is a list of console mini-games which can be executed independently or be imported as modules. 
-
+# Pycade Console made by @AftonSenpai
 ## Requirements:
 - Python 3.X
 - Git
