@@ -2,7 +2,7 @@
 Created by @aftonsenpai - 05:23 AM | 19/12/24
 Type - Console Game
 Title - Guess the Number [Simple Edition]
-Version - 1.0.4
+Version - 1.1.4
 '''
 from random import randint, choice
 from os import system as s
