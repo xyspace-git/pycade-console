@@ -13,8 +13,8 @@
 - Rock-Paper-Scissor
 
 ## Instructions for Win/Linux/Termux
-`git clone https://github.com/xyspace-git/pycade-console.git`
-`cd pycade-console`
+```git clone https://github.com/xyspace-git/pycade-console.git```
+```cd pycade-console```
 
 ## For the Full Version
 `python pycade.py`
