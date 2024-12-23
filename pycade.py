@@ -1,4 +1,10 @@
-
+'''DOCUMENTATION
+Created by @aftonsenpai - 05:23 AM | 19/12/24
+Last Updated: 20:19 PM | 23/12/24
+Type - Console Game
+Title - Pycade Console
+Version - 1.0.4
+'''
 def re(message, ctype):
     print(">>> {} <<<".format(message))
     sleep(0.6)
