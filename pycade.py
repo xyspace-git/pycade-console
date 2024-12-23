@@ -15,6 +15,7 @@ def menu():
     try:
         ch = (input("[>] "))
         if ch == '1':
+            import guess
             guess.menu("module")
         elif ch == '2':
             re("Will be added soon", "m")
@@ -31,7 +32,6 @@ def menu():
     except Exception:
         re("Invalid Input", "m") 
 
-import guess
 from os import system as s
 from time import sleep
 game = "RUN"
