@@ -4,7 +4,7 @@
 - Git
 
 ## List of Available games
-- Guess the Number
+- Guess the Number [SE, OE, NE]
 
 ## To be added soon!
 - Quizzo
