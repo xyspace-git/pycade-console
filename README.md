@@ -1,4 +1,4 @@
-# Pycade Console made by @AftonSenpai
+# Pycade Console
 ## Requirements:
 - Python 3.X
 - Git
@@ -20,3 +20,9 @@
 
 ## For the Desired Game
 `python <gamename>.py` 
+
+# Credits:
+- Project Author: Afton
+- Developer: <name>
+
+  
