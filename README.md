@@ -5,10 +5,10 @@
 
 ## List of Available games
 - Guess the Number (3 Modes)
+- Tic-Tac-Toe
 
 ## To be added soon!
 - Quizzo
-- Tic-Tac-Toe
 - Hangman
 - Rock-Paper-Scissor
 
