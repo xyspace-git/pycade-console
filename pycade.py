@@ -30,7 +30,8 @@ def menu():
         elif ch == '4':
             re("Will be added soon", "m")
         elif ch == '5':
-            re("Will be added soon", "m")
+            import ttt
+            ttt.main()
         elif ch == 'q':
             re("You Quit", ch)
         else:
