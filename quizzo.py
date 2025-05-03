@@ -1,16 +1,8 @@
-'''
-Created by @aftonsenpai - HH:MM AM/PM | DD/MM/YY
-Type - Console Game
-Title - Quizzo [Simple Edition]
-Version - 1.0.x
-'''
-
-'''
-DOCUMENTATION
+'''DOCUMENTATION
 Created by @aftonsenpai - 05:23 AM | 19/12/24
 Last Updated: 02:17 AM | 04/05/25
 Type - Console Game
-Title - Pycade Console
+Title - Quizzo [Simple Edition]
 Version - 2.0.0
 '''
 
@@ -113,18 +105,18 @@ def play(word):
             for i, c in enumerate(word):
                 if c == g:
                     board[i] = g
-            print("✅ Nice!")
+            print("Nice!")
         else:
             tries -= 1
-            print(f"❌ Nope. Tries left: {tries}")
+            print(f"Nope. Tries left: {tries}")
 
         print(show_hang(tries))
         print("Word:", " ".join(board), "\n")
 
     if set(board) == chars:
-        print(f"🎉 You got it! Word was: {word}")
+        print(f"🎉You got it! Word was: {word}")
     else:
-        print(f"💀 Out of tries. Word was: {word}")
+        print(f"Out of tries. Word was: {word}")
 
 def main():
     word = get_word()
