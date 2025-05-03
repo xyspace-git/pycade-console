@@ -7,10 +7,6 @@ Title - Tic-Tac-Toe
 Version - 2.0.0
 '''
 
-# ======================= #
-#    TIC TAC TOE GAME     #
-# ======================= #
-
 def print_board(board):
     print("\n")
     for row in board:
@@ -19,7 +15,6 @@ def print_board(board):
     print("\n")
 
 def check_winner(board, player):
-    # Check rows, columns, and diagonals
     for i in range(3):
         if all(cell == player for cell in board[i]) or \
            all(board[j][i] == player for j in range(3)):
