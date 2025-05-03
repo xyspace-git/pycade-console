@@ -6,10 +6,10 @@
 ## List of Available games
 - Guess the Number (3 Modes)
 - Tic-Tac-Toe
-
-## To be added soon!
 - Quizzo
 - Hangman
+
+## To be added soon!
 - Rock-Paper-Scissor
 
 ## Instructions for Win/Linux/Termux
