@@ -2,7 +2,7 @@
 Created by @aftonsenpai - 05:23 AM | 19/12/24
 Last Updated: 02:17 AM | 04/05/25
 Type - Console Game
-Title - Quizzo [Simple Edition]
+Title - Hangman
 Version - 2.0.0
 '''
 
