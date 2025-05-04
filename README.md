@@ -7,11 +7,11 @@
 - Guess the Number (3 Modes)
 - Tic-Tac-Toe
 - Quizzo
-- Hangman
 
 ## To be added soon!
 - Rock-Paper-Scissor
-
+- Hangman
+ 
 ## Instructions for Win/Linux/Termux
 ```git clone https://github.com/xyspace-git/pycade-console.git && cd pycade-console```
 
